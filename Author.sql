@@ -1,0 +1,10 @@
+USE McqVault
+
+CREATE TABLE Author (
+Author_Id INT IDENTITY(7500,3) PRIMARY KEY,
+Author_Name VARCHAR(100) NOT NULL,
+Gender VARCHAR(6) NOT NULL,
+Institution VARCHAR(100),
+Author_Password VARCHAR(200) NOT NULL
+
+)
